@@ -1,0 +1,19 @@
+1. Segmented FFP (Frequent Flyer Program) customers of an airline by using K-means clustering and assessed optimal number of clusters or K value by elbow plots. 
+
+2. Presented problems in increasing airline's FFP enrollments from customer segmentation in given data by root cause analysis, 
+including contributing external factors, insufficient FFP enrollment duration, and absence of airline's rewards criteria details 
+to understand the flying behavior of FFP customers. 
+
+3. Identified problems with insufficient information in the dataset pertaining to whether the recently enrolled FFP customers are related to 
+the earlier enrolled customers that could result in marketing programs to not serve their intended purpose. 
+
+4. Made an observation that flying behavior of FFP customers could be properly determined when a customer has enrolled for considerable duration 
+and has not enrolled for less number of days as given in one of the features in the dataset.  
+
+5. Used 25th, 50th and 75th percentile values in feature with values of enrollment duration in years to create a categorical feature with 
+description about year range corresponding to the value given in feature of enrollment duration. 
+
+6. Studied patterns and relations between this categorical feature and other features in the dataset by using cross tables and libraries such as Matplotlib and Seaborn 
+for visualization of data. 
+
+
