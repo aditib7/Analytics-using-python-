@@ -16,6 +16,37 @@ Please check below the summary of objectives and major findings of this assignme
 
 5. Employed a cost-sensitive learning approach that involved a combination of SMOTE (Synthetic Minority Oversampling Technique) to oversample from minority class (bad loans) and ENN (Edited Nearest Neighbors) to undersample from majority class (good loans) for building a classification model. Evaluated the model using F2 score metric for assigning greater weightage to recall or sensitivity than to precision for better prediction of bad loans.
 
+*****************************************************************************************************************************************************************************
+
+Assignment 2: ETL operations on Unstructured Sensor Data 
+
+1. Performed ETL (Extract, Transform and Load) operations in Python as part of analysis of the accelerometer sensor data for carrying out gesture recognition of users.  
+
+2. Extracted the sensor data from distinct text files containing information about 20 gestures (each gesture repeated 20 times) performed by each of the 8 users. 
+
+3. Transformed the sensor data extracted from each of 3200 text files by reading each of the x, y, and z coordinates respectively or sequence of movements constituting a gesture as a column-major flattened array. 
+
+4. Compiled the transformed data and loaded it to the csv file for further analysis and classification of gestures. 
+
+*****************************************************************************************************************************************************************************
+
+Assignment 3: Clustering Problem - Customer Segmentation in Airlines
+
+1. Segmented FFP (Frequent Flyer Program) customers of an airline by using K-means clustering and assessed optimal number of clusters or K value by elbow plots. 
+
+2. Presented problems in increasing airline's FFP enrollments from customer segmentation in given data by root cause analysis, including contributing external factors, insufficient FFP enrollment duration, and absence of airline's rewards criteria details to understand the flying behavior of FFP customers. 
+
+3. Identified problems with insufficient information in the dataset pertaining to whether the recently enrolled FFP customers are related to the earlier enrolled customers that could result in marketing programs to not serve their intended purpose. 
+
+4. Made an observation that flying behavior of FFP customers could be properly determined when a customer has enrolled for considerable duration and has not enrolled for less number of days as given in one of the features in the dataset.  
+
+5. Used 25th, 50th and 75th percentile values in feature with values of enrollment duration in years to create a categorical feature with description about year range corresponding to the value given in feature of enrollment duration. Studied patterns and relations between this categorical feature and other features in the dataset 
+by using cross tables and libraries such as Matplotlib and Seaborn for visualization of data. 
+
+6. Created pair plots of clusters for checking the segmentation of data into groups.
+
+******************************************************************************************************************************************************************************
+
 © 2021 GitHub, Inc.
 Terms
 Privacy
