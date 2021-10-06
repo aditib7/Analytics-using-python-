@@ -47,6 +47,35 @@ by using cross tables and libraries such as Matplotlib and Seaborn for visualiza
 
 ******************************************************************************************************************************************************************************
 
+Assignment 4: Classification of outcomes of a bank’s marketing campaign 
+
+Analyzed the data of a bank’s marketing campaign with the objective of predicting whether there is a subscription to deposit or not as a consequence of that campaign.  
+
+Findings:
+
+1. Made an important finding that around 64% of the subscribers of deposits, who were contacted in the existing marketing campaign were not contacted in the previous campaign. 
+This finding suggests that the purpose of features given in the dataset is defeated as incoherent relation is found between the previous and later marketing campaign. 
+If coherent relations were present, they could have allowed for better comparison of the outcomes of two campaigns and study of relative effectiveness of campaigns. 
+
+2. Deciphered patterns in the data and dependencies between features by using cross tables, correlations, statistical tests, and visualization techniques 
+in Python.  
+
+3. Employed logistic regression algorithm for classification of likely subscribers and non-subscribers of deposits post the marketing campaign. 
+Plotted ROC-AUC curve using different classification threshold values to obtain the AUC (area under the curve). 
+
+*****************************************************************************************************************************************************************************
+
+KAGGLE COMPETITION: Regression Problem - Prediction of insurance amount
+
+Aced problem on prediction of insurance amount by using mutual information to check dependencies and 
+permutation based feature importance in Random Forest Regressor to rank features and identify overfitting of the model. 
+
+*****************************************************************************************************************************************************************************
+
+Assignment - Analysis of Chinook Database using MySQL
+
+*****************************************************************************************************************************************************************************
+
 © 2021 GitHub, Inc.
 Terms
 Privacy
