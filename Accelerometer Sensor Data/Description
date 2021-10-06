@@ -1,8 +1,18 @@
+Structure of Case Study Files
+
+The data files that are given in this assignment are arranged as follows:
+
+There are 8 users. For each of the 8 users, there are 20 gestures. 
+There are 20 files for gesture 1 itself and last 3 columns in each of the files correspond to x,y, and z coordinates. 
+It is also given that each of these 8 users repeat 20 times each of their respective 20 gestures. Basic ETL is performed to analyse the data contained in
+3200 text files in this case study. 
+
 1. Performed ETL (Extract, Transform and Load) operations in Python as part of analysis of the accelerometer sensor data for carrying out gesture recognition of users.  
 
 2. Extracted the sensor data from distinct text files containing information about 20 gestures (each gesture repeated 20 times) performed by each of the 8 users. 
 
-3. Transformed the sensor data extracted from each of 3200 text files by reading each of the x, y, and z coordinates respectively or sequence of movements constituting a gesture as a column-major flattened array. 
+3. Transformed the sensor data extracted from each of 3200 text files by reading each of the x, y, and z coordinates respectively 
+or sequence of movements constituting a gesture as a column-major flattened array. 
 
 4. Compiled the transformed data and loaded it to the csv file for further analysis and classification of gestures. 
 
