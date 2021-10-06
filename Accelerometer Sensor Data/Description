@@ -1,1 +1,8 @@
+1. Performed ETL (Extract, Transform and Load) operations in Python as part of analysis of the accelerometer sensor data for carrying out gesture recognition of users.  
+
+2. Extracted the sensor data from distinct text files containing information about 20 gestures (each gesture repeated 20 times) performed by each of the 8 users. 
+
+3. Transformed the sensor data extracted from each of 3200 text files by reading each of the x, y, and z coordinates respectively or sequence of movements constituting a gesture as a column-major flattened array. 
+
+4. Compiled the transformed data and loaded it to the csv file for further analysis and classification of gestures. 
 
